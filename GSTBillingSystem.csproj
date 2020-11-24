@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24C8F67D-E281-4AFB-B573-915835158E44}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSTBillingSystem</RootNamespace>
+    <AssemblyName>Template</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Brand.aspx" />
+    <Content Include="Category.aspx" />
+    <Content Include="css\slim.css" />
+    <Content Include="css\slim.header-one.css" />
+    <Content Include="css\slim.header-two.css" />
+    <Content Include="css\slim.min.css" />
+    <Content Include="css\slim.one.css" />
+    <Content Include="Customer.aspx" />
+    <Content Include="img\abc.jpg" />
+    <Content Include="Inward.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="img\icon1.svg" />
+    <Content Include="img\icon2.svg" />
+    <Content Include="img\img0.jpg" />
+    <Content Include="img\img1.jpg" />
+    <Content Include="img\img10.jpg" />
+    <Content Include="img\img11.jpg" />
+    <Content Include="img\img12.jpg" />
+    <Content Include="img\img13.jpg" />
+    <Content Include="img\img14.jpg" />
+    <Content Include="img\img15.jpg" />
+    <Content Include="img\img16.jpg" />
+    <Content Include="img\img17.jpg" />
+    <Content Include="img\img18.jpg" />
+    <Content Include="img\img19.jpg" />
+    <Content Include="img\img2.jpg" />
+    <Content Include="img\img20.jpg" />
+    <Content Include="img\img21.jpg" />
+    <Content Include="img\img22.jpg" />
+    <Content Include="img\img23.jpg" />
+    <Content Include="img\img24.jpg" />
+    <Content Include="img\img25.jpg" />
+    <Content Include="img\img26.jpg" />
+    <Content Include="img\img27.jpg" />
+    <Content Include="img\img27.png" />
+    <Content Include="img\img28.jpg" />
+    <Content Include="img\img29.jpg" />
+    <Content Include="img\img3.jpg" />
+    <Content Include="img\img30.jpg" />
+    <Content Include="img\img31.jpg" />
+    <Content Include="img\img32.jpg" />
+    <Content Include="img\img4.jpg" />
+    <Content Include="img\img5.jpg" />
+    <Content Include="img\img6.jpg" />
+    <Content Include="img\img7.jpg" />
+    <Content Include="img\img8.jpg" />
+    <Content Include="img\img9.jpg" />
+    <Content Include="img\landing1.png" />
+    <Content Include="img\landing10.png" />
+    <Content Include="img\landing2.png" />
+    <Content Include="img\landing3.png" />
+    <Content Include="img\landing4.png" />
+    <Content Include="img\landing5.png" />
+    <Content Include="img\landing6.png" />
+    <Content Include="img\landing7.png" />
+    <Content Include="img\landing8.png" />
+    <Content Include="img\landing9.png" />
+    <Content Include="js\chart.chartist.js" />
+    <Content Include="js\chart.chartjs.dark.js" />
+    <Content Include="js\chart.chartjs.js" />
+    <Content Include="js\chart.echarts.dark.js" />
+    <Content Include="js\chart.echarts.js" />
+    <Content Include="js\chart.flot.dark.js" />
+    <Content Include="js\chart.flot.js" />
+    <Content Include="js\chart.morris.js" />
+    <Content Include="js\chart.peity.js" />
+    <Content Include="js\chart.rickshaw.js" />
+    <Content Include="js\chart.sparkline.js" />
+    <Content Include="js\dashboard.js" />
+    <Content Include="js\jquery.vmap.sampledata.js" />
+    <Content Include="js\map.apple.js" />
+    <Content Include="js\map.bluewater.js" />
+    <Content Include="js\map.mapbox.js" />
+    <Content Include="js\map.shadesofgray.js" />
+    <Content Include="js\map.shiftworker.js" />
+    <Content Include="js\ResizeSensor.js" />
+    <Content Include="js\slim.js" />
+    <Content Include="js\widgets.js" />
+    <Content Include="lib\bootstrap-tagsinput\css\bootstrap-tagsinput.css" />
+    <Content Include="lib\bootstrap-tagsinput\js\bootstrap-tagsinput.js" />
+    <Content Include="lib\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="lib\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="lib\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="lib\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="lib\bootstrap\css\bootstrap.css" />
+    <Content Include="lib\bootstrap\css\bootstrap.min.css" />
+    <Content Include="lib\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="lib\bootstrap\js\bootstrap.js" />
+    <Content Include="lib\bootstrap\js\bootstrap.min.js" />
+    <Content Include="lib\chart.js\js\Chart.js" />
+    <Content Include="lib\chartist\css\chartist.css" />
+    <Content Include="lib\chartist\js\chartist.js" />
+    <Content Include="lib\d3\js\d3.js" />
+    <Content Include="lib\datatables-responsive\js\dataTables.responsive.js" />
+    <Content Include="lib\datatables\css\jquery.dataTables.css" />
+    <Content Include="lib\datatables\js\jquery.dataTables.js" />
+    <Content Include="lib\datatables\png\sort_asc.png" />
+    <Content Include="lib\datatables\png\sort_asc_disabled.png" />
+    <Content Include="lib\datatables\png\sort_both.png" />
+    <Content Include="lib\datatables\png\sort_desc.png" />
+    <Content Include="lib\datatables\png\sort_desc_disabled.png" />
+    <Content Include="lib\echarts\js\echarts-en.common.js" />
+    <Content Include="lib\echarts\js\echarts-en.common.min.js" />
+    <Content Include="lib\echarts\js\echarts-en.js" />
+    <Content Include="lib\echarts\js\echarts-en.min.js" />
+    <Content Include="lib\echarts\js\echarts-en.simple.js" />
+    <Content Include="lib\echarts\js\echarts-en.simple.min.js" />
+    <Content Include="lib\echarts\js\echarts.common.js" />
+    <Content Include="lib\echarts\js\echarts.common.min.js" />
+    <Content Include="lib\echarts\js\echarts.js" />
+    <Content Include="lib\echarts\js\echarts.min.js" />
+    <Content Include="lib\echarts\js\echarts.simple.js" />
+    <Content Include="lib\echarts\js\echarts.simple.min.js" />
+    <Content Include="lib\eve-raphael\js\eve.js" />
+    <Content Include="lib\flag-icon-css\css\flag-icon.min.css" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ad.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ae.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\af.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ag.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ai.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\al.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\am.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ao.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\aq.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ar.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\as.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\at.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\au.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\aw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ax.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\az.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ba.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bb.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bd.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\be.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bi.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bj.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bo.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bq.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\br.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bs.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\by.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\bz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ca.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cd.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ch.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ci.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ck.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\co.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cx.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cy.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\cz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\de.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\dj.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\dk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\dm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\do.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\dz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ec.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ee.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\eg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\eh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\er.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\es-ct.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\es.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\et.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\eu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fi.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fj.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fo.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\fr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ga.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gb-eng.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gb-nir.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gb-sct.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gb-wls.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gb.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gd.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ge.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gi.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gp.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gq.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gs.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\gy.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\hk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\hm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\hn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\hr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ht.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\hu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\id.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ie.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\il.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\im.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\in.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\io.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\iq.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ir.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\is.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\it.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\je.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\jm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\jo.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\jp.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ke.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ki.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\km.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kp.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ky.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\kz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\la.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lb.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\li.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ls.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\lv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ly.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ma.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\md.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\me.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ml.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mo.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mp.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mq.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ms.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mx.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\my.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\mz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\na.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ne.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ng.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ni.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\no.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\np.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\nz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\om.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pa.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pe.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ph.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ps.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\pw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\py.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\qa.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\re.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ro.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\rs.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ru.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\rw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sa.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sb.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sd.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\se.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sh.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\si.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sj.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\so.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ss.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\st.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sx.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sy.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\sz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\td.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\th.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tj.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tk.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tl.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\to.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tr.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tv.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tw.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\tz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ua.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ug.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\um.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\un.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\us.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\uy.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\uz.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\va.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\vc.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ve.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\vg.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\vi.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\vn.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\vu.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\wf.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ws.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\ye.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\yt.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\za.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\zm.svg" />
+    <Content Include="lib\flag-icon-css\flags\1x1\zw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ad.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ae.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\af.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ag.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ai.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\al.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\am.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ao.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\aq.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ar.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\as.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\at.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\au.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\aw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ax.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\az.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ba.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bb.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bd.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\be.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bi.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bj.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bo.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bq.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\br.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bs.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\by.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\bz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ca.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cd.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ch.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ci.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ck.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\co.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cx.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cy.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\cz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\de.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\dj.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\dk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\dm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\do.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\dz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ec.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ee.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\eg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\eh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\er.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\es-ct.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\es.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\et.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\eu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fi.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fj.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fo.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\fr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ga.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gb-eng.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gb-nir.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gb-sct.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gb-wls.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gb.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gd.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ge.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gi.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gp.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gq.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gs.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\gy.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\hk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\hm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\hn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\hr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ht.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\hu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\id.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ie.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\il.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\im.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\in.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\io.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\iq.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ir.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\is.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\it.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\je.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\jm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\jo.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\jp.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ke.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ki.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\km.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kp.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ky.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\kz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\la.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lb.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\li.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ls.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\lv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ly.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ma.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\md.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\me.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ml.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mo.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mp.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mq.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ms.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mx.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\my.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\mz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\na.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ne.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ng.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ni.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\no.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\np.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\nz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\om.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pa.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pe.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ph.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ps.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\pw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\py.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\qa.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\re.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ro.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\rs.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ru.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\rw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sa.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sb.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sd.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\se.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sh.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\si.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sj.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\so.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ss.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\st.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sx.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sy.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\sz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\td.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\th.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tj.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tk.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tl.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\to.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tr.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tv.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tw.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\tz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ua.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ug.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\um.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\un.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\us.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\uy.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\uz.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\va.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\vc.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ve.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\vg.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\vi.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\vn.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\vu.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\wf.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ws.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\ye.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\yt.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\za.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\zm.svg" />
+    <Content Include="lib\flag-icon-css\flags\4x3\zw.svg" />
+    <Content Include="lib\flot-spline\js\jquery.flot.spline.js" />
+    <Content Include="lib\Flot\js\jquery.flot.js" />
+    <Content Include="lib\Flot\js\jquery.flot.pie.js" />
+    <Content Include="lib\Flot\js\jquery.flot.resize.js" />
+    <Content Include="lib\font-awesome\css\font-awesome.css" />
+    <Content Include="lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="lib\fullcalendar\css\fullcalendar.css" />
+    <Content Include="lib\fullcalendar\js\fullcalendar.js" />
+    <Content Include="lib\gmaps\js\gmaps.js" />
+    <Content Include="lib\highlightjs\css\default.css" />
+    <Content Include="lib\highlightjs\css\dracula.css" />
+    <Content Include="lib\highlightjs\css\github.css" />
+    <Content Include="lib\highlightjs\js\highlight.pack.js" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.css" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.skinFlat.css" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.skinHTML5.css" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.skinModern.css" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.skinNice.css" />
+    <Content Include="lib\ion.rangeSlider\css\ion.rangeSlider.skinSimple.css" />
+    <Content Include="lib\ion.rangeSlider\css\normalize.css" />
+    <Content Include="lib\ion.rangeSlider\img\sprite-skin-flat.png" />
+    <Content Include="lib\ion.rangeSlider\img\sprite-skin-modern.png" />
+    <Content Include="lib\ion.rangeSlider\img\sprite-skin-nice.png" />
+    <Content Include="lib\ion.rangeSlider\img\sprite-skin-simple.png" />
+    <Content Include="lib\ion.rangeSlider\js\ion.rangeSlider.js" />
+    <Content Include="lib\ion.rangeSlider\js\ion.rangeSlider.min.js" />
+    <Content Include="lib\Ionicons\css\ionicons.css" />
+    <Content Include="lib\Ionicons\fonts\ionicons.svg" />
+    <Content Include="lib\Jcrop\css\Jcrop.css" />
+    <Content Include="lib\Jcrop\js\Jcrop.js" />
+    <Content Include="lib\jquery-toggles\css\toggles-full.css" />
+    <Content Include="lib\jquery-toggles\js\toggles.min.js" />
+    <Content Include="lib\jquery-ui\js\jquery-ui.js" />
+    <Content Include="lib\jquery.cookie\js\jquery.cookie.js" />
+    <Content Include="lib\jquery.maskedinput\js\jquery.maskedinput.js" />
+    <Content Include="lib\jquery.sparkline.bower\js\jquery.sparkline.min.js" />
+    <Content Include="lib\jquery.steps\css\jquery.steps.css" />
+    <Content Include="lib\jquery.steps\js\jquery.steps.js" />
+    <Content Include="lib\jquery\js\jquery.js" />
+    <Content Include="lib\jqvmap\css\jqvmap.css" />
+    <Content Include="lib\jqvmap\css\jqvmap.min.css" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.africa.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.algeria.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.argentina.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.asia.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.australia.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.brazil.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.canada.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.europe.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.france.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.germany.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.greece.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.iran.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.iraq.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.min.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.north-america.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.russia.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.south-america.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.tunisia.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.turkey.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.usa.js" />
+    <Content Include="lib\jqvmap\js\jquery.vmap.world.js" />
+    <Content Include="lib\jt.timepicker\css\jquery.timepicker.css" />
+    <Content Include="lib\jt.timepicker\js\jquery.timepicker.js" />
+    <Content Include="lib\leaflet\css\leaflet.css" />
+    <Content Include="lib\leaflet\images\layers-2x.png" />
+    <Content Include="lib\leaflet\images\layers.png" />
+    <Content Include="lib\leaflet\images\marker-icon-2x.png" />
+    <Content Include="lib\leaflet\images\marker-icon.png" />
+    <Content Include="lib\leaflet\images\marker-shadow.png" />
+    <Content Include="lib\leaflet\js\leaflet-src.js" />
+    <Content Include="lib\medium-editor\css\default.css" />
+    <Content Include="lib\medium-editor\css\medium-editor.css" />
+    <Content Include="lib\medium-editor\js\medium-editor.js" />
+    <Content Include="lib\mocha\js\mocha.js" />
+    <Content Include="lib\moment\js\moment.js" />
+    <Content Include="lib\morris.js\css\morris.css" />
+    <Content Include="lib\morris.js\js\morris.js" />
+    <Content Include="lib\parsleyjs\js\parsley.js" />
+    <Content Include="lib\peity\js\jquery.peity.js" />
+    <Content Include="lib\perfect-scrollbar\css\perfect-scrollbar.css" />
+    <Content Include="lib\perfect-scrollbar\css\perfect-scrollbar.min.css" />
+    <Content Include="lib\perfect-scrollbar\js\perfect-scrollbar.jquery.js" />
+    <Content Include="lib\perfect-scrollbar\js\perfect-scrollbar.jquery.min.js" />
+    <Content Include="lib\perfect-scrollbar\js\perfect-scrollbar.js" />
+    <Content Include="lib\perfect-scrollbar\js\perfect-scrollbar.min.js" />
+    <Content Include="lib\popper.js\js\popper.js" />
+    <Content Include="lib\raphael\js\raphael.min.js" />
+    <Content Include="lib\rickshaw\css\rickshaw.css" />
+    <Content Include="lib\rickshaw\css\rickshaw.min.css" />
+    <Content Include="lib\rickshaw\js\rickshaw.js" />
+    <Content Include="lib\rickshaw\js\rickshaw.min.js" />
+    <Content Include="lib\select2\css\select2.min.css" />
+    <Content Include="lib\select2\js\select2.full.min.js" />
+    <Content Include="lib\select2\js\select2.min.js" />
+    <Content Include="lib\spectrum\css\spectrum.css" />
+    <Content Include="lib\spectrum\js\spectrum.js" />
+    <Content Include="lib\SpinKit\css\spinkit.css" />
+    <Content Include="lib\summernote\css\summernote-bs4.css" />
+    <Content Include="lib\summernote\css\summernote-lite.css" />
+    <Content Include="lib\summernote\css\summernote.css" />
+    <Content Include="lib\summernote\js\summernote-bs4.js" />
+    <Content Include="lib\summernote\js\summernote-bs4.min.js" />
+    <Content Include="lib\summernote\js\summernote-lite.js" />
+    <Content Include="lib\summernote\js\summernote.js" />
+    <Content Include="lib\summernote\js\summernote.min.js" />
+    <Content Include="lib\superfish\css\superfish.css" />
+    <Content Include="lib\superfish\js\hoverIntent.js" />
+    <Content Include="lib\superfish\js\superfish.js" />
+    <Content Include="Product.aspx" />
+    <Content Include="PurchaseMaster.aspx" />
+    <Content Include="SaleMaster.aspx" />
+    <Content Include="SaleReport.aspx" />
+    <Content Include="Vendor.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Brand.aspx.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Brand.aspx.designer.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inward.aspx.cs">
+      <DependentUpon>Inward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inward.aspx.designer.cs">
+      <DependentUpon>Inward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseMaster.aspx.cs">
+      <DependentUpon>PurchaseMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseMaster.aspx.designer.cs">
+      <DependentUpon>PurchaseMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaleMaster.aspx.cs">
+      <DependentUpon>SaleMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleMaster.aspx.designer.cs">
+      <DependentUpon>SaleMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaleReport.aspx.cs">
+      <DependentUpon>SaleReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleReport.aspx.designer.cs">
+      <DependentUpon>SaleReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.aspx.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vendor.aspx.designer.cs">
+      <DependentUpon>Vendor.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\bootstrap\map\bootstrap-grid.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap-grid.min.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap-reboot.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap-reboot.min.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.bundle.js.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.bundle.min.js.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.js.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.min.css.map" />
+    <Content Include="lib\bootstrap\map\bootstrap.min.js.map" />
+    <Content Include="lib\datatables-responsive\scss\responsive.dataTables.scss" />
+    <Content Include="lib\echarts\map\echarts-en.js.map" />
+    <Content Include="lib\echarts\map\echarts.js.map" />
+    <Content Include="lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="lib\Ionicons\fonts\ionicons.eot" />
+    <Content Include="lib\Ionicons\fonts\ionicons.ttf" />
+    <Content Include="lib\Ionicons\fonts\ionicons.woff" />
+    <Content Include="lib\summernote\font\summernote.eot" />
+    <Content Include="lib\summernote\font\summernote.ttf" />
+    <Content Include="lib\summernote\font\summernote.woff" />
+    <Content Include="lib\summernote\map\summernote-bs4.js.map" />
+    <Content Include="lib\summernote\map\summernote-lite.js.map" />
+    <Content Include="lib\summernote\map\summernote.js.map" />
+    <Content Include="lib\summernote\zip\summernote-0.8.9-dist.zip" />
+    <Content Include="AdminMaster.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\echarts\extension\" />
+    <Folder Include="lib\summernote\lang\" />
+    <Folder Include="MyCss\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BAL\BAL.csproj">
+      <Project>{a50a0d9e-ee1b-4a13-8048-45e4ae9ae4d0}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="BE\BE.csproj">
+      <Project>{be34be39-a856-4fdf-8af5-e4d4996d6d44}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10967/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

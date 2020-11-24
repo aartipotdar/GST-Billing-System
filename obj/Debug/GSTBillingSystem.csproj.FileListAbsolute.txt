@@ -1,0 +1,78 @@
+E:\Template\Template\Template\bin\Template.dll
+E:\Template\Template\Template\bin\Template.pdb
+E:\Template\Template\Template\obj\Debug\Template.dll
+E:\Template\Template\Template\obj\Debug\Template.pdb
+E:\Template\Template\Template\bin\BAL.dll
+E:\Template\Template\Template\bin\BE.dll
+E:\Template\Template\Template\bin\DAL.dll
+E:\Template\Template\Template\bin\BAL.pdb
+E:\Template\Template\Template\bin\BE.pdb
+E:\Template\Template\Template\bin\DAL.pdb
+E:\Template\Template\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\Template.dll
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\Template.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\BAL.dll
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\BE.dll
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\DAL.dll
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\BAL.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\BE.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\DAL.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+E:\Project\01.01.2019\GSTBillingSystem\Template\obj\Debug\Template.dll
+E:\Project\01.01.2019\GSTBillingSystem\Template\obj\Debug\Template.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\bin\AjaxControlToolkit.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.pdb
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.pdb
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.pdb
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.pdb
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.dll
+C:\Users\Advent\Desktop\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.pdb
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.dll
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.pdb
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.dll
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.dll
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.dll
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.pdb
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.pdb
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.pdb
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.dll
+C:\Users\Advent\Desktop\Extra\Project\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\Template.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BAL.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\BE.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\bin\DAL.pdb
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.dll
+F:\F Drive\Advent Technologies\Students_Projects\GST\UGST_03032019_autosaleid and date\UGST_03032019\GSTBillingSystem\GSTBillingSystem\Template\obj\Debug\Template.pdb
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\Template.dll
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\Template.pdb
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\BAL.dll
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\BE.dll
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\DAL.dll
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\BAL.pdb
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\BE.pdb
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\bin\DAL.pdb
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\obj\Debug\GSTBillingSystem.csprojResolveAssemblyReference.cache
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\obj\Debug\Template.dll
+E:\Project(temp)\01.01.2019\GST Billing ystem(report added)\GSTBillingSystem\gst(recent)\GSTBillingSystem_04March2019\GSTBillingSystem\Template\obj\Debug\Template.pdb

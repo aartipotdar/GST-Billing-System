@@ -1,0 +1,231 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="GSTBillingSystem.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstap/3.4.0/css/bootstrap.min.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@themepixels" />
+    <meta name="twitter:creator" content="@themepixels" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Slim" />
+    <meta name="twitter:description" content="Premium Quality and Responsive UI for Dashboard." />
+    <meta name="twitter:image" content="http://themepixels.me/slim/img/slim-social.png" />
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/slim" />
+    <meta property="og:title" content="Slim" />
+    <meta property="og:description" content="Premium Quality and Responsive UI for Dashboard." />
+
+    <meta property="og:image" content="http://themepixels.me/slim/img/slim-social.png" />
+    <meta property="og:image:secure_url" content="http://themepixels.me/slim/img/slim-social.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard." />
+    <meta name="author" content="ThemePixels" />
+
+    <title>Universal GST Billing System</title>
+
+    <!-- vendor css -->
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet" />
+    <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet" />
+    <link href="../lib/jquery-toggles/css/toggles-full.css" rel="stylesheet" />
+    <link href="../lib/jt.timepicker/css/jquery.timepicker.css" rel="stylesheet" />
+    <link href="../lib/spectrum/css/spectrum.css" rel="stylesheet" />
+    <link href="../lib/bootstrap-tagsinput/css/bootstrap-tagsinput.css" rel="stylesheet" />
+
+    <!-- Slim CSS -->
+    <link rel="stylesheet" href="../css/slim.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <div class="slim-header with-sidebar">
+        <div class="container-fluid">
+            <div class="slim-header-left">
+                <h2 class="slim-logo"><a href="index.html">UGST</a></h2>
+                <a href="" id="slimSidebarMenu" class="slim-sidebar-menu" /><span></span></a>
+                                    <!-- search-box -->
+            </div>
+            <!-- slim-header-left -->
+            <div class="slim-header-right">
+                <div class="dropdown dropdown-a" data-toggle="tooltip" title="Activity Logs">
+                    <div class="dropdown-menu">
+                        <!-- dropdown-menu-header -->
+                        <div class="dropdown-activity-list">
+
+
+                            <!-- row -->
+                        </div>
+                        <!-- activity-item -->
+                    </div>
+                </div>
+                <!-- dropdown-menu-right -->
+            </div>
+            <!-- dropdown -->
+            <div class="dropdown dropdown-b" data-toggle="tooltip" title="Notifications">
+                <div class="dropdown-menu">
+                    <!-- dropdown-menu-header -->
+                    <!-- dropdown-list -->
+                </div>
+                <!-- dropdown-menu-right -->
+            </div>
+            <!-- dropdown -->
+            <div class="dropdown dropdown-c">
+                <a href="#" class="logged-user" data-toggle="dropdown">
+                    <img src="http://via.placeholder.com/500x500" alt="abc" />
+                    <span>Log Out</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <nav class="nav">
+
+                        <a href="login.aspx" class="nav-link"><i class="icon ion-forward"></i>Sign Out</a>
+                    </nav>
+                </div>
+                <!-- dropdown-menu -->
+            </div>
+            <!-- dropdown -->
+        </div>
+        <!-- header-right -->
+    </div>
+    <!-- container-fluid -->
+
+    <!-- slim-header -->
+
+    <div class="slim-body">
+        <div class="slim-sidebar">
+            <label class="sidebar-label">Menu</label>
+            <ul class="nav nav-sidebar" />
+            <li class="sidebar-nav-item with-sub">
+
+                <li class="sidebar-nav-item with-sub" />
+                <a href="" class="sidebar-nav-link"><i class="icon ion-ios-home-outline tx-16 lh-0 op-6"></i>Dashboard</a>
+                <ul class="nav sidebar-nav-sub">
+                    <li class="nav-sub-item"><a href="index.html" class="nav-sub-link">Dashboard 01</a></li>
+                    <li class="nav-sub-item"><a href="index2.html" class="nav-sub-link">Dashboard 02</a></li>
+                    <li class="nav-sub-item"><a href="index3.html" class="nav-sub-link">Dashboard 03</a></li>
+                    <li class="nav-sub-item"><a href="index4.html" class="nav-sub-link">Dashboard 04</a></li>
+                    <li class="nav-sub-item"><a href="index5.html" class="nav-sub-link">Dashboard 05</a></li>
+                </ul>
+            </li>
+
+
+            <ul class="nav nav-sidebar">
+                <li class="sidebar-nav-item">
+                    <a href="Category.aspx" class="sidebar-nav-link"><i class="fa fa-cube tx-16 lh-0 op-6"></i>Add Category </a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="Brand.aspx" class="sidebar-nav-link"><i class="icon ion-filing tx-16 lh-0 op-6"></i>Add Brand</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="Product.aspx" class="sidebar-nav-link"><i class="fa fa-dropbox tx-20 lh-0 op-6"></i>Add Product </a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="Customer.aspx" class="sidebar-nav-link"><i class="fa fa-user tx-16 lh-0 op-6"></i>Customer</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="SaleMaster.aspx" class="sidebar-nav-link"><i class=" fa fa-shopping-bag tx-16 lh-0 op-6"></i>Sale Product</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="PurchaseMaster.aspx" class="sidebar-nav-link"><i class=" fa fa-shopping-cart tx-16 lh-0 op-6"></i>Purchase Product </a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="Vendor.aspx" class="sidebar-nav-link"><i class="fa fa-user tx-16  tx-16 lh-0 op-6"></i>Add Vendor </a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="Inward.aspx" class="sidebar-nav-link"><i class="fa fa-clipboard tx-16 lh-0 op-6"></i>Inward </a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a href="SaleReport.aspx" class="sidebar-nav-link"><i class="icon ion-document-text tx-16 lh-0 op-6"></i>Report</a>
+                </li>
+                <%--<li class="sidebar-nav-item">
+       <a href="Login.aspx" class="sidebar-nav-link"><i class="fa fa-sign-in  tx-16 lh-0 op-6"></i>Login </a>
+    </li>--%>
+            </ul>
+
+        </div>
+        <!-- slim-sidebar -->
+
+        <div class="slim-mainpanel">
+            <form id="form1" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+            <!-- slim-mainpanel -->
+        </div>
+        <!-- slim-body -->
+    </div>
+    <script src="../lib/jquery/js/jquery.js"></script>
+    <script src="../lib/popper.js/js/popper.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../lib/jquery.cookie/js/jquery.cookie.js"></script>
+    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../lib/jquery-toggles/js/toggles.min.js"></script>
+    <script src="../lib/jt.timepicker/js/jquery.timepicker.js"></script>
+    <script src="../lib/spectrum/js/spectrum.js"></script>
+    <script src="../lib/jquery.maskedinput/js/jquery.maskedinput.js"></script>
+    <script src="../lib/bootstrap-tagsinput/js/bootstrap-tagsinput.js"></script>
+
+    <script src="../js/slim.js"></script>
+    <script>
+        $(function () {
+            'use strict'
+
+            // Toggles
+            $('.toggle').toggles({
+                on: true,
+                height: 26
+            });
+
+            // Input Masks
+            $('#dateMask').mask('99/99/9999');
+            $('#phoneMask').mask('(999) 999-9999');
+            $('#ssnMask').mask('999-99-9999');
+
+            // Time Picker
+            $('#tpBasic').timepicker();
+            $('#tp2').timepicker({ 'scrollDefault': 'now' });
+            $('#tp3').timepicker();
+
+            $('#setTimeButton').on('click', function () {
+                $('#tp3').timepicker('setTime', new Date());
+            });
+
+            // Color picker
+            $('#colorpicker').spectrum({
+                color: '#17A2B8'
+            });
+
+            $('#showAlpha').spectrum({
+                color: 'rgba(23,162,184,0.5)',
+                showAlpha: true
+            });
+
+            $('#showPaletteOnly').spectrum({
+                showPaletteOnly: true,
+                showPalette: true,
+                color: '#DC3545',
+                palette: [
+                    ['#1D2939', '#fff', '#0866C6', '#23BF08', '#F49917'],
+                    ['#DC3545', '#17A2B8', '#6610F2', '#fa1e81', '#72e7a6']
+                ]
+            });
+
+        });
+    </script>
+</body>
+</html>

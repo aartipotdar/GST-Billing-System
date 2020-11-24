@@ -1,0 +1,6 @@
+E:\Template\Template\Template\bin\Template.dll
+E:\Template\Template\Template\bin\Template.pdb
+E:\Template\Template\Template\obj\Debug\Template.csprojResolveAssemblyReference.cache
+E:\Template\Template\Template\obj\Debug\Template.dll
+E:\Template\Template\Template\obj\Debug\Template.pdb
+E:\Project\01.01.2019\GSTBillingSystem\Template\obj\Debug\Template.csprojResolveAssemblyReference.cache
